@@ -5,8 +5,8 @@ sudo chmod +x /opt/discordautosetup/discord.sh
 sudo chmod +x /opt/discordautosetup/alertpublic.sh
 sudo chmod +x /opt/discordautosetup/alertpersonal.sh
 sudo ln -s /opt/discordautosetup/discord.sh /usr/local/bin/todiscord
-sudo ln -s /opt/discordautosetup/alertpersonal.sh /usr/local/bin/alert
-sudo ln -s /opt/discordautosetup/alertpublic.sh /usr/local/bin/alert2
+sudo ln -s /opt/discordautosetup/alertpersonal.sh /usr/local/bin/alertpersonal
+sudo ln -s /opt/discordautosetup/alertpublic.sh /usr/local/bin/alertpublic
 
 
 echo "Enter Discord Bot ID"
