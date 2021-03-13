@@ -1,0 +1,2 @@
+# discordautosetup
+alert to discord 
