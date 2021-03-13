@@ -3,7 +3,7 @@ cd ~
 sudo cp -r /home/$USER/discordautosetup/ /opt/
 sudo chmod +x /opt/discordautosetup/discord.sh 
 sudo chmod +x /opt/discordautosetup/alertpublic.sh
-sudo chmod +x /opt/discordautosetup/alert.sh.sh
+sudo chmod +x /opt/discordautosetup/alert.sh
 sudo chmod +x /opt/discordautosetup/alertpersonal.sh
 sudo ln -s /opt/discordautosetup/discord.sh /usr/local/bin/todiscord
 sudo ln -s /opt/discordautosetup/alertpersonal.sh /usr/local/bin/alertpersonal
