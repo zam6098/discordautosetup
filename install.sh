@@ -3,10 +3,13 @@ cd ~
 sudo cp -r /home/$USER/discordautosetup/ /opt/
 sudo chmod +x /opt/discordautosetup/discord.sh 
 sudo chmod +x /opt/discordautosetup/alertpublic.sh
+sudo chmod +x /opt/discordautosetup/alert.sh.sh
 sudo chmod +x /opt/discordautosetup/alertpersonal.sh
 sudo ln -s /opt/discordautosetup/discord.sh /usr/local/bin/todiscord
 sudo ln -s /opt/discordautosetup/alertpersonal.sh /usr/local/bin/alertpersonal
 sudo ln -s /opt/discordautosetup/alertpublic.sh /usr/local/bin/alertpublic
+sudo ln -s /opt/discordautosetup/alert.sh /usr/local/bin/alert
+
 
 
 echo "Enter Discord Bot ID"
