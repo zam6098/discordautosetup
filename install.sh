@@ -1,8 +1,8 @@
 #!/bin/bash
 cd ~
 sudo cp -r /home/$USER/discordautosetup/ /opt/
-sudo chmod +x discord.sh 
-sudo chmod +x alertsqlid.sh
+sudo chmod +x /opt/discordautosetup/discord.sh 
+sudo chmod +x /opt/discordautosetup/alertsqlid.sh
 sudo ln -s /opt/discordautosetup/discord.sh /usr/local/bin/todiscord
 sudo ln -s /opt/discordautosetup/alertsqlid.sh /usr/local/bin/alert
 
