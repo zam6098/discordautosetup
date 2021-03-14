@@ -14,9 +14,13 @@ sudo ln -s /opt/discordautosetup/alert.sh /usr/local/bin/alert
 
 echo "Enter Discord Bot ID"
 read botid
-echo "Enter Webhook Personal URL"
+echo "================================="
+echo "Please Enter Webhook Personal URL"
+echo "================================="
 read whpersonal
-echo "Enter Webhook Public URL"
+echo "================================="
+echo "Please Enter Webhook Public URL"
+echo "================================="
 read whpublic
 
 echo export  IDSCANNER=$botid >>~/.zshrc  
