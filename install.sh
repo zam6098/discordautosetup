@@ -1,6 +1,6 @@
 #!/bin/bash
 cd ~
-sudo cp -r /home/$USER/discordautosetup/ /opt/
+sudo cp -r /root/discordautosetup/ /opt/
 sudo chmod +x /opt/discordautosetup/discord.sh 
 sudo chmod +x /opt/discordautosetup/alertpublic.sh
 sudo chmod +x /opt/discordautosetup/alert.sh
